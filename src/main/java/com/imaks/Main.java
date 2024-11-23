@@ -27,6 +27,7 @@ public class Main {
                 return a + b;
             }
         };
+        System.out.println(addition.operate(5, 25));
 
         //..........3...................................................................
         System.out.println(strConvert("Hillel", String::toUpperCase));//method
